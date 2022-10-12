@@ -18,6 +18,7 @@ const Home = ({headerData, heroData, faqData, navData, howData, aboutData, foote
       <Testimonials testemonialData = {testimonialData}/>
       <Footer footerData = {footerData}/>
       <Copyright />
+        <div className="min-h-[2000px]"></div>
     </div>
   );
 };

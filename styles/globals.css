@@ -7,7 +7,7 @@
     @apply font-body font-normal text-base text-primary bg-slate-200;
   }
   a {
-    @apply font-body text-base uppercase font-medium tracking-[5%];
+    @apply font-body text-base  font-medium tracking-[5%];
   }
   h1,
   h2,
@@ -30,7 +30,7 @@
     @apply font-body font-light text-[18px] leading-[40px];
   }
   .btn {
-    @apply h-[60px] bg-accent py-[20px] px-[24px] text-white rounded-[5px] font-body uppercase tracking-[5%] text-base font-medium hover:bg-accent-hover flex items-center gap-6;
+    @apply h-[60px] bg-accent py-5 px-6 text-black rounded-2xl font-body tracking-[5%] text-base font-normal hover:bg-accent-hover flex items-center gap-2.5;
   }
   .input {
     @apply h-[60px] rounded-[5px] max-w-[400px] outline-none px-[40px] ring-1 ring-accent/50 focus:ring-2 focus:ring-accent transition focus:drop-shadow-primary text-[18px] font-bold placeholder:text-[18px] placeholder:font-light placeholder:text-primary;
