@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link'
 import Nav from './Nav';
 import NavMobile from './NavMobile';
+import {motion} from 'framer-motion';
 
 import {HiMenu} from "react-icons/hi";
 
@@ -26,7 +27,10 @@ const Header = ({ headerData, navData }) => {
           </Link>
           <div className = "hidden lg:flex gap-x-24">
               <Nav navData = {navData} header = {header}/>
-              <button className = {`${header ? "" : "bg-black hover:bg-black hover:text-accent-hover text-accent"} btn p-2.5 h-full`}>{headerData.btnText}</button>
+              <motion.button whileHover = {{scale:1.05}} className = {`${header ? "hover:bg-accent-hover/80" : "bg-black text-accent hover:text-accent-hover/80 hover:bg-black"} 
+              btn p-2.5 h-full`}>
+                  {headerData.btnText}
+              </motion.button>
           </div>
           <div onClick={() => setNavMobile(!navMobile)} className = "lg:hidden cursor-pointer">
               <HiMenu className = {`${header ? "text-accent hover:text-accent-hover" : "text-black hover:text-black/75"} text-4xl`}/>

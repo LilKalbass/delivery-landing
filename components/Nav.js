@@ -8,7 +8,7 @@ const Nav = ({ navData, header }) => {
             return (
                 <li key = {index}>
                   <Link href = {item.href}>
-                    <a className = {`${header ? "text-accent" : "text-black"} text-lg cursor-pointer hover:text-accent-hover transition`}>{item.name}</a>
+                    <a className = {`${header ? "text-accent hover:text-accent-hover/70" : "text-black  hover:text-black/70"} text-lg cursor-pointer transition`}>{item.name}</a>
                   </Link>
                 </li>
             );
