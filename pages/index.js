@@ -10,7 +10,7 @@ import {headerData, heroData, faqData, navData, howData, aboutData, footerData, 
 
 const Home = ({headerData, heroData, faqData, navData, howData, aboutData, footerData, testimonialData}) => {
   return (
-    <div className = "overflow-hidden max-w-[1600px] mx-auto bg-page">
+    <div className = "overflow-hidden mx-auto bg-violet-600">
       <Hero heroData = {heroData} headerData = {headerData} navData = {navData}/>
       <About aboutData = {aboutData}/>
       <How howData = {howData}/>

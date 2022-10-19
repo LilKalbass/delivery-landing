@@ -14,7 +14,7 @@ const How = ({howData}) => {
             <motion.div variants={fadeInLeft} className = "flex flex-1 justify-end">
               <div className = "max-w-[450px]">
                 <h3 className = "h3">{howData.title}</h3>
-                <p className = "lead">{howData.subtitle}</p>
+                <p className = "lead text-black">{howData.subtitle}</p>
               </div>
             </motion.div>
           </motion.div>
