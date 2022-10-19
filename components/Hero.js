@@ -7,7 +7,7 @@ import {CgArrowLongRight} from "react-icons/cg";
 
 const Hero = ({heroData, headerData, navData}) => {
   return (
-      <section className = "bg-hero bg-no-repeat bg-left-top min-h-[800px] lg:min-h-[950px] lg:mb-80">
+      <section className = "bg-hero bg-no-repeat bg-left-top min-h-[800px] lg:min-h-[950px] lg:mb-40">
           <motion.div variants = {staggerContainer} initial = "initial" animate = "animate"
                       className = "container mx-auto min-h-[800px] lg:min-h-[1000px] relative">
               <motion.div variants = {fadeInDown} className = "pb-10 lg:pb-20">
