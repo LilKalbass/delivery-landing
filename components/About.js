@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import {motion} from 'framer-motion';
-import {fadeInUp,fadeInDown,staggerTextContainer} from '../variants';
+import {fadeInUp, fadeInDown, staggerTextContainer} from '../variants';
 
 const About = ({aboutData}) => {
   return (
@@ -12,7 +12,7 @@ const About = ({aboutData}) => {
               <h3 className = "pl-4 h3">{aboutData.title}</h3>
               <p className = "ml-3 text-black lead max-w-[450px] mb-16">{aboutData.subtitle}</p>
               <div className = "bg-red-100 border-l-8 rounded-lg border-accent max-w-[550px] h-[150px] flex items-center justify-center mb-8 lg:mb-0 bg-white/10">
-                <p className = "text-lg leading-8 font-medium max-w-[320px] lg:max-w-[440px]">{aboutData.text}</p>
+                <p className = "text-lg leading-8 font-medium max-w-[320px] lg:max-w-[440px] text-black">{aboutData.text}</p>
               </div>
             </motion.div>
             <motion.div variants = {fadeInUp} className = "flex-1">

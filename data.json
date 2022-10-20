@@ -89,8 +89,8 @@
     ]
   },
   "testimonialData": {
-    "pretitle": "testimonials",
-    "title": "Our Awesome Clients",
+    "pretitle": "Reviews",
+    "title": "Our Awesome Clients: ",
     "clients": [
       {
         "message": "Yes, you will need to have the land owner sign the permit application as the Permittee, and you sign the permit as the Applicant or Agent for the Permittee.",
@@ -130,9 +130,9 @@
     "text": "We provide traffic management consultants so you get started quickly, contact us for a quote today!",
     "logo": "/images/footer/logo.svg",
     "links": [
-      { "name": "about", "href": "/" },
-      { "name": "how to", "href": "/" },
-      { "name": "faqs", "href": "/" }
+      { "name": "About", "href": "/" },
+      { "name": "How to", "href": "/" },
+      { "name": "Faqs", "href": "/" }
     ],
     "form": {
       "labelName": "Name",
