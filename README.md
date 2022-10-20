@@ -1,1 +1,1 @@
-https://delivery-landing-m6wv.vercel.app/
+https://delivery-landing.vercel.app/
