@@ -11,7 +11,7 @@ const Footer = ({footerData}) => {
                     className = "container mx-auto lg:min-h-[738px] flex flex-col justify-between">
           <motion.div
               variants = {footerTruckAnim} className = "hidden lg:flex absolute -top-32 -left-[6%]">
-            <Image src = {footerData.truckImg} width = {600} height = {250} />
+            <Image src = {footerData.truckImg} width = {600} height = {250} alt = "q"/>
           </motion.div>
           <motion.div variants = {fadeInUp} className = "flex flex-col lg:flex-row items-center lg:pr-[95px] lg:gap-x-[95px] gap-y-10 lg:gap-y-0">
             <div className = "flex-1 text-white border-l-8 rounded-lg border-accent py-4 lg:mt-24">
@@ -33,7 +33,7 @@ const Footer = ({footerData}) => {
             <div className = "mb-6 mx-auto lg:mb-0 lg:mx-0">
               <Link href = {'/'}>
                 <a>
-                  <Image src = {footerData.logo} width = {170} height = {41} />
+                  <Image src = {footerData.logo} width = {170} height = {41} alt = "q"/>
                 </a>
               </Link>
             </div>

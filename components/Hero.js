@@ -18,13 +18,13 @@ const Hero = ({heroData, headerData, navData}) => {
                   {heroData.btnText}<CgArrowLongRight className = "text-2xl"/>
               </motion.button>
               <motion.div variants = {girlAnim} className = "hidden lg:flex">
-                  <Image src = {heroData.girlImg} width={250} height={490}/>
+                  <Image src = {heroData.girlImg} width={250} height={490} alt = "q"/>
               </motion.div>
               <motion.div variants = {heroTruckAnim} className = "hidden lg:flex -bottom-[12%] -left-[35%] absolute ">
-                  <Image src = {heroData.truckImg} width={850} height={580}/>
+                  <Image src = {heroData.truckImg} width={850} height={580} alt = "q"/>
               </motion.div>
               <motion.div variants = {boyAnim} className = "hidden lg:flex left-[280px] bottom-2 absolute z-10">
-                  <Image src = {heroData.boyImg} width={820} height={500}/>
+                  <Image src = {heroData.boyImg} width={820} height={500} alt = "q"/>
               </motion.div>
           </motion.div>
       </section>

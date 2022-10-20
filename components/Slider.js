@@ -12,7 +12,7 @@ const Slider = ({clients}) => {
                 <div className = "flex flex-col justify-between bg-white/5 h-[360px] rounded-xl px-[50px] pt-[60px] pb-[40px]">
                   <p className = "text-black font-light leading-[30px]">{client.message}</p>
                   <div className = "flex items-center gap-x-5">
-                    <Image src = {client.image} width = {60} height = {60} />
+                    <Image src = {client.image} width = {60} height = {60} alt = "q"/>
                     <span className = "font-semibold text-black">{client.name}</span>
                   </div>
                 </div>

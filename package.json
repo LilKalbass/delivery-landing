@@ -4,10 +4,11 @@
   "homepage": "https://Lilkalbass.github.io/delivery-landing",
   "private": true,
   "scripts": {
-    "start": "next start",
-    "predeploy": "npm run build",
     "dev": "next dev",
     "build": "next build",
+    "start": "next start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "lint": "next lint"
   },
   "dependencies": {

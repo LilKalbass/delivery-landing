@@ -14,7 +14,7 @@ const Faq = ({faqData}) => {
               <h2 className = "h2 mb-6 text-black">{faqData.title}</h2>
             </motion.div>
             <motion.div variants = {fadeInLeft} className = "lg:absolute lg:right-4 lg:-top-36 ">
-              <Image src = {faqData.boyImg} width = {700} height = {500}/>
+              <Image src = {faqData.boyImg} width = {700} height = {500} alt = "q"/>
             </motion.div>
           </motion.div>
           <motion.div variants = {staggerAccordionContainer} initial = "initial" whileInView = {"animate"} viewport = {{once: false, amount: 0.3}}

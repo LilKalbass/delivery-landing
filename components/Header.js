@@ -22,7 +22,7 @@ const Header = ({ headerData, navData }) => {
       flex justify-between items-center w-full max-w-[90vw] lg:max-w-[1200px] left-0 right-0 mx-auto rounded-b-full duration-500 fixed transition-all z-20`}>
           <Link href = {'/'}>
               <a>
-                  <Image src = {`${header ? headerData.logoImgV2 : headerData.logoImgV1}`} width = {header ? 180 : 200} height = {50}/>
+                  <Image src = {`${header ? headerData.logoImgV2 : headerData.logoImgV1}`} width = {header ? 180 : 200} height = {50} alt = "q"/>
               </a>
           </Link>
           <div className = "hidden lg:flex gap-x-24">
